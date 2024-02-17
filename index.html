@@ -16,21 +16,9 @@
       function MyApp() {
         return <button>Hello, world!</button>;
       }
-
-      const container = document.getElementById('root');
-      const root = ReactDOM.createRoot(container);
-      root.render(<MyApp />);
-
+      ReactDOM
+      .createRoot(document.getElementById('root'))
+      .render(<MyApp />)
     </script>
-    <!--
-      Note: this page is a great way to try React but it's not suitable for production.
-      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
-
-      Read this page for starting a new React project with JSX:
-      https://react.dev/learn/start-a-new-react-project
-
-      Read this page for adding React with JSX to an existing project:
-      https://react.dev/learn/add-react-to-an-existing-project
-    -->
   </body>
 </html>
